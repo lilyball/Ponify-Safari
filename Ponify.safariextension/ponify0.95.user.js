@@ -468,6 +468,8 @@ Ponify.enabled = Ponify.urlCheck();
 
 
 if(Ponify.enabled){
-	Ponify.ponify(document);
-	document.addEventListener("DOMNodeInserted", Ponify.nodeInserted, true);
+	document.addEventListener('DOMContentLoaded', function () {
+		Ponify.ponify(document);
+		document.addEventListener("DOMNodeInserted", Ponify.nodeInserted, true);
+	});
 }
