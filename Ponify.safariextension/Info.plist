@@ -42,6 +42,8 @@
 			<string>All</string>
 		</dict>
 	</dict>
+	<key>Update Manifest URL</key>
+	<string>https://github.com/kballard/Ponify-Safari/raw/master/update.plist</string>
 	<key>Website</key>
 	<string>http://pterocorn.blogspot.com</string>
 </dict>
