@@ -315,7 +315,7 @@ Ponify.ponifyText = function(v, mode){
 	// Skip text nodes with nothing but spaces/tabs/etc (there are a lot of these)
 	if(!/\S/.test(v)){ return; }
 	
-	console.debug(v);
+	//console.debug(v);
 	
 	var track = [];
 	var p;
